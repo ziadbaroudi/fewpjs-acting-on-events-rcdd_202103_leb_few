@@ -9,3 +9,4 @@ document.addEventListener("keydown", function(e){
     if(left>0){dodger.style.left = `${left -1}px`;}
   }
 });
+
