@@ -3,7 +3,7 @@
 let dodger = document.getElementById("dodger");
 
 document.addEventListener("keydown", function(e){
-  if (key === "ArrowLeft") {
+  if (e.key === "ArrowLeft") {
     let leftNumbers = dodger.style.left.replace("px", "")
     let left = parseInt(leftNumbers, 10);
     
